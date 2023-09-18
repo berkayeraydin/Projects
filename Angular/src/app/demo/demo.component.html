@@ -1,2 +1,16 @@
 <p>1+1</p>
 <p>Hoşgeldiniz: {{ name }} Yaş: {{ age }}</p>
+
+<p>Sayı {{ count }}</p>
+<button (click)="increase()">Artır</button>
+<button (click)="decrease()">Azalt</button>
+
+<br />
+
+<label>İsminizi Giriniz</label>
+<!-- Banana Syntax -->
+<!-- NgModel => FormsModule'ün bir attribute'ı -->
+<input [(ngModel)]="name" (ngModelChange)="onNameChange()" />
+<p>{{ name }}</p>
+
+<button (click)="submit()">Gönder</button>
