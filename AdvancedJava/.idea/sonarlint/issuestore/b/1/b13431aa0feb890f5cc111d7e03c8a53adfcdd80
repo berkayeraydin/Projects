@@ -1,0 +1,31 @@
+
+T
+java:S3958,"2Refactor the code so this stream pipeline is used.(•÷Ù½þÿÿÿÿ8Õ½Ð¢­0
+X
+java:S1854J";Remove this useless assignment to local variable "collect".(ßü©Ñ8ß½Ð¢­0
+b
+java:S1854,"@Remove this useless assignment to local variable "streamStream".(•÷Ù½þÿÿÿÿ8ß½Ð¢­0
+Q	java:S125"<This block of commented-out lines of code should be removed.(ÉÀÞû
+N	java:S106*"9Replace this use of System.out or System.err by a logger.(þõ‘›
+S
+java:S1481,"1Remove this unused "streamStream" local variable.(•÷Ù½þÿÿÿÿ8 ¾Ð¢­0
+Z	java:S1068"9Replace this use of System.out or System.err by a logger.(¹¦…‡úÿÿÿÿ8¦¾Ð¢­0
+Z	java:S106H"9Replace this use of System.out or System.err by a logger.(Ù¥ÍÎûÿÿÿÿ8­¾Ð¢­0
+I
+java:S1481J",Remove this unused "collect" local variable.(ßü©Ñ8¶¾Ð¢­0
+]	java:S125j"<This block of commented-out lines of code should be removed.(–š¡òúÿÿÿÿ8¿¾Ð¢­0
+@
+java:S1128"$Remove this unused import 'java.io'.(¬›ãD8Ö˜Å¢­0
+R
+java:S1128"0Remove this unused import 'java.nio.ByteBuffer'.(¿¢×±úÿÿÿÿ8×˜Å¢­0
+X
+java:S1128"6Remove this unused import 'java.nio.MappedByteBuffer'.(É•ìÉûÿÿÿÿ8×˜Å¢­0
+W
+java:S1128":Remove this unused import 'java.nio.channels.FileChannel'.(±Áá8×˜Å¢­0
+Y
+java:S1128	"7Remove this unused import 'java.nio.channels.FileLock'.(ÎåÛ†ùÿÿÿÿ8×˜Å¢­0
+d
+java:S1128
+"BRemove this unused import 'java.nio.channels.ReadableByteChannel'.(î–ä°ûÿÿÿÿ8×˜Å¢­0
+_
+java:S1128"BRemove this unused import 'java.nio.channels.WritableByteChannel'.(¬ÌÎ³8Ø˜Å¢­0

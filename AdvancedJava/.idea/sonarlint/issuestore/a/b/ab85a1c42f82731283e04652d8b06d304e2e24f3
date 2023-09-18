@@ -1,0 +1,26 @@
+
+\
+java:S1192
+"FDefine a constant instead of duplicating this literal "osman" 3 times.(æÄØœ
+^
+java:S1854@"HRemove this useless assignment to local variable "intSummaryStatistics".(âÈ«þ
+a
+java:S1854"FRemove this useless assignment to local variable "customerNameLength".(ÔßðÊúÿÿÿÿ
+[
+java:S1854"@Remove this useless assignment to local variable "customerList".(¸â¼§ýÿÿÿÿ
+P
+java:S1854":Remove this useless assignment to local variable "stream".(†°º‹
+A
+java:S1481"+Remove this unused "stream" local variable.(†°º‹
+L
+java:S1481"1Remove this unused "customerList" local variable.(¸â¼§ýÿÿÿÿ
+R
+java:S1481"7Remove this unused "customerNameLength" local variable.(ÔßðÊúÿÿÿÿ
+S	java:S1065"9Replace this use of System.out or System.err by a logger.(Äçã»øÿÿÿÿ
+Q
+java:S1612C";Replace this lambda with method reference 'String::length'.(Í§«º
+O
+java:S1481@"9Remove this unused "intSummaryStatistics" local variable.(âÈ«þ
+S	java:S106E"9Replace this use of System.out or System.err by a logger.(š—“¿ÿÿÿÿÿ
+R
+java:S1128"7Remove this unused import 'java.util.stream.IntStream'.(ÙÉ½Ÿùÿÿÿÿ

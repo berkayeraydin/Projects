@@ -1,0 +1,18 @@
+
+T
+java:S1854	"9Remove this useless assignment to local variable "value".(Õ¢Ë“ÿÿÿÿÿ
+`
+java:S1854$"ERemove this useless assignment to local variable "genericCharHolder".(’Ÿ»óùÿÿÿÿ
+N
+java:S1854"8Remove this useless assignment to local variable "gen2".(€ó´
+U
+java:S1854":Remove this useless assignment to local variable "value2".(ÒËëŠûÿÿÿÿ
+E
+java:S1481	"*Remove this unused "value" local variable.(Õ¢Ë“ÿÿÿÿÿ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(ƒÚáB
+F
+java:S1481"+Remove this unused "value2" local variable.(ÒËëŠûÿÿÿÿ
+?
+java:S1481")Remove this unused "gen2" local variable.(€ó´
+Q
+java:S1481$"6Remove this unused "genericCharHolder" local variable.(’Ÿ»óùÿÿÿÿ

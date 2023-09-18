@@ -1,0 +1,23 @@
+
+\
+java:S1192	"FDefine a constant instead of duplicating this literal "osman" 4 times.(ö£—®
+d
+java:S1192"IDefine a constant instead of duplicating this literal "EÄŸitmen" 3 times.( „”ñùÿÿÿÿ
+X
+java:S1854"=Remove this useless assignment to local variable "immutable".(÷‘›»ýÿÿÿÿ
+R
+java:S1854"<Remove this useless assignment to local variable "mutable2".(ò¿çÃ
+W
+java:S1854"<Remove this useless assignment to local variable "mutable1".(ù÷ÅÓþÿÿÿÿ
+M	java:S106
+"9Replace this use of System.out or System.err by a logger.(››¸6
+H
+java:S1481"-Remove this unused "mutable1" local variable.(ù÷ÅÓþÿÿÿÿ
+C
+java:S1481"-Remove this unused "mutable2" local variable.(ò¿çÃ
+I
+java:S1481".Remove this unused "immutable" local variable.(÷‘›»ýÿÿÿÿ
+`
+java:S1128"JRemove this unused import 'org.training.java.advanced.intf.AbstractHello'.(ú€Ãô
+^
+java:S1128"CRemove this unused import 'org.training.java.advanced.intf.IHello'.(Ñ€öõûÿÿÿÿ

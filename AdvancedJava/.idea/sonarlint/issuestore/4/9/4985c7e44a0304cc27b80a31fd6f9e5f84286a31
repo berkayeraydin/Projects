@@ -1,0 +1,28 @@
+
+J
+java:S3740)"/Provide the parametrized type for this generic.(™œºÏüÿÿÿÿ
+\
+java:S1192"FDefine a constant instead of duplicating this literal "osman" 3 times.(½—Ñ
+M
+java:S1854"8Remove this useless assignment to local variable "size".(ÙÊâV
+P
+java:S1854"5Remove this useless assignment to local variable "s".(ÿó´Üşÿÿÿÿ
+T
+java:S1854(">Remove this useless assignment to local variable "objectList".(ÌºŞ
+R
+java:S1854&"7Remove this useless assignment to local variable "car".(‰Š‰²şÿÿÿÿ
+A
+java:S1481"&Remove this unused "s" local variable.(ÿó´Üşÿÿÿÿ
+>
+java:S1481")Remove this unused "size" local variable.(ÙÊâV
+S	java:S106"9Replace this use of System.out or System.err by a logger.(õÔØ‘ıÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ĞÛâï
+M	java:S106"9Replace this use of System.out or System.err by a logger.(ƒÚáB
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ĞÛâï
+[
+java:S1612"@Replace this lambda with method reference 'System.out::println'.(Ò—Í€ÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ò—Í€ÿÿÿÿÿ
+C
+java:S1481&"(Remove this unused "car" local variable.(‰Š‰²şÿÿÿÿ
+E
+java:S1481("/Remove this unused "objectList" local variable.(ÌºŞ

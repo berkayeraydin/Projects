@@ -1,0 +1,5 @@
+osman,yaycıoğlu,200,95
+ali,veli,185,90
+ayşe1,al1,181,60,383
+ayşe,al,181,60
+mehmet,yaycıoğlu,200,95

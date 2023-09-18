@@ -1,0 +1,20 @@
+
+\
+java:S1192"FDefine a constant instead of duplicating this literal "osman" 3 times.(æÄØœ
+d
+java:S1192"IDefine a constant instead of duplicating this literal " data : " 4 times.(ñÀ¤Ùûÿÿÿÿ
+7
+java:S3864"!Remove this use of "Stream.peek".(ßŠùö
+<
+java:S3864"!Remove this use of "Stream.peek".(ÈÿËæşÿÿÿÿ
+<
+java:S3864"!Remove this use of "Stream.peek".(õÛáÑùÿÿÿÿ
+7
+java:S3864"!Remove this use of "Stream.peek".(£©
+N	java:S106"9Replace this use of System.out or System.err by a logger.(£©
+S	java:S106"9Replace this use of System.out or System.err by a logger.(õÛáÑùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÈÿËæşÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ßŠùö
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(¹¦…‡úÿÿÿÿ
+S	java:S106)"9Replace this use of System.out or System.err by a logger.(†¢ñÇşÿÿÿÿ
+N	java:S106*"9Replace this use of System.out or System.err by a logger.(™Û¶

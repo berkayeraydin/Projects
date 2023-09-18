@@ -1,0 +1,19 @@
+
+\
+java:S1192"FDefine a constant instead of duplicating this literal "osman" 3 times.(æÄØœ
+T
+java:S1854"9Remove this useless assignment to local variable "first".(Ò‡à‘ÿÿÿÿÿ
+S
+java:S1854"=Remove this useless assignment to local variable "noneMatch".(™Çêä
+R
+java:S1854"<Remove this useless assignment to local variable "anyMatch".(»š•ø
+W
+java:S1854"<Remove this useless assignment to local variable "allMatch".(’³˜ôúÿÿÿÿ
+H
+java:S1481"-Remove this unused "allMatch" local variable.(’³˜ôúÿÿÿÿ
+C
+java:S1481"-Remove this unused "anyMatch" local variable.(»š•ø
+D
+java:S1481".Remove this unused "noneMatch" local variable.(™Çêä
+E
+java:S1481"*Remove this unused "first" local variable.(Ò‡à‘ÿÿÿÿÿ
