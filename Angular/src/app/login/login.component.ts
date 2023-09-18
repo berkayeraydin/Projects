@@ -1,42 +1,48 @@
 import { Component, OnInit } from '@angular/core';
 import { PostForListingModel } from '../models/postForListingModel';
 import { PostService } from '../services/post.service';
+import {
+  FormGroup,
+  FormBuilder,
+  FormControl,
+  Validators,
+} from '@angular/forms';
 
 @Component({
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css'],
 })
 
-// Angular Attributeları arasında fonks. ve eventler
-// ()
-
-// Attribute ve özellikler
-// []
 export class LoginComponent implements OnInit {
-  // constructor (bağımlılık yükleme) => ngOnInit => ngOnChanges => ngOnDestroy
-  posts: PostForListingModel[] = [];
-  isLoading: boolean = true;
-  constructor(private postService: PostService) {}
+  formGroup!: FormGroup;
 
-  // Arrow Function
-  // (y) => {}
-
-  // COMMONJS Function
-  // function x(y) {}
-
-  // Modelleme => Üzerinde çalıştığımız verilerin prototipini oluşturmak.
+  constructor(
+    private postService: PostService,
+    private formBuilder: FormBuilder
+  ) {}
   ngOnInit(): void {
-    // Söz => Async bir işlem yaptığında sana olumlu-olumsuz bir cevap kesin dönecek.
-    // Abone => bir cevap döndüğünde beni bu fonksiyon aracılığı ile haberdar et.
-    // subscribe => (response,error)
+    this.createLoginForm();
+  }
 
-    this.postService.getAll().subscribe((response) => {
-      this.posts = response;
-      this.isLoading = false;
+  createLoginForm() {
+    this.formGroup = this.formBuilder.group({
+      username: new FormControl('', [
+        Validators.required,
+        Validators.minLength(3),
+      ]), // 1. param => Formdaki bu alanın başlangıç değeri
+      // 2. param => validasyonlar
+      password: new FormControl('', [
+        Validators.required,
+        Validators.minLength(3),
+      ]),
     });
   }
 
-  passwordChange(password: string) {
-    console.log('password change', password);
+  submit() {
+    if (this.formGroup.invalid) {
+      console.log(this.formGroup);
+      return;
+    }
+    console.log(this.formGroup.value);
   }
 }

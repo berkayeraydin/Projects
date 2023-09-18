@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ExampleComponent } from './example/example.component';
 import { DemoComponent } from './demo/demo.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LoginComponent } from './login/login.component';
 import { InputComponent } from './input/input.component';
 import { HttpClientModule } from '@angular/common/http';
@@ -18,7 +18,13 @@ import { HttpClientModule } from '@angular/common/http';
     LoginComponent,
     InputComponent,
   ], // Bu modül hangi tanımlamaları yapıyor?
-  imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule], // Dış modüllerin import edilmesi.
+  imports: [
+    BrowserModule, 
+    AppRoutingModule, 
+    FormsModule, 
+    HttpClientModule,
+    ReactiveFormsModule
+  ], // Dış modüllerin import edilmesi.
   providers: [], // DI
   bootstrap: [AppComponent],
   exports: [ExampleComponent], // Declarations kısımındakilerden hangileri dışarıya açılacak?
