@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
 import { PostForListingModel } from '../models/postForListingModel';
+import { PostService } from '../services/post.service';
 
 @Component({
   templateUrl: './login.component.html',
@@ -15,7 +15,8 @@ import { PostForListingModel } from '../models/postForListingModel';
 export class LoginComponent implements OnInit {
   // constructor (bağımlılık yükleme) => ngOnInit => ngOnChanges => ngOnDestroy
   posts: PostForListingModel[] = [];
-  constructor(private httpClient: HttpClient) {}
+  isLoading: boolean = true;
+  constructor(private postService: PostService) {}
 
   // Arrow Function
   // (y) => {}
@@ -25,16 +26,14 @@ export class LoginComponent implements OnInit {
 
   // Modelleme => Üzerinde çalıştığımız verilerin prototipini oluşturmak.
   ngOnInit(): void {
-    this.httpClient
-      .get<PostForListingModel[]>('https://jsonplaceholder.typicode.com/posts')
-      .subscribe((response: PostForListingModel[]) => {
-        this.posts = response;
-      });
-
     // Söz => Async bir işlem yaptığında sana olumlu-olumsuz bir cevap kesin dönecek.
     // Abone => bir cevap döndüğünde beni bu fonksiyon aracılığı ile haberdar et.
-
     // subscribe => (response,error)
+
+    this.postService.getAll().subscribe((response) => {
+      this.posts = response;
+      this.isLoading = false;
+    });
   }
 
   passwordChange(password: string) {

@@ -7,7 +7,8 @@
 <!-- HTML içerisinde iterasyon -->
 
 <div>
-  <ul>
+  <p *ngIf="isLoading">Yükleniyor..</p>
+  <ul *ngIf="!isLoading">
     <li *ngFor="let item of posts">{{ item.id }} - {{ item.title }}</li>
   </ul>
 </div>
