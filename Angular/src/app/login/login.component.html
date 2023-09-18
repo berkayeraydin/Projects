@@ -1,0 +1,13 @@
+<!-- Conditional Rendering -->
+
+<p *ngIf="posts.length > 100">50'den fazla içerik mevcut!</p>
+
+<!-- <p [class]="posts.length > 100 ? '' : 'd-none'">50'den fazla içerik mevcut!</p> -->
+
+<!-- HTML içerisinde iterasyon -->
+
+<div>
+  <ul>
+    <li *ngFor="let item of posts">{{ item.id }} - {{ item.title }}</li>
+  </ul>
+</div>
