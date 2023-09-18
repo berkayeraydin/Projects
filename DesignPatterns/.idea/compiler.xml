@@ -16,6 +16,7 @@
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar" />
         </processorPath>
         <module name="design-pattern" />
+        <module name="Design Patterns" />
       </profile>
     </annotationProcessing>
   </component>
