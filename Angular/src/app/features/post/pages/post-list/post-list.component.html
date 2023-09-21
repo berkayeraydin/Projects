@@ -1,0 +1,23 @@
+<app-layout>
+  <div
+    class="d-flex justify-content-center align-items-center py-5 flex-column"
+  >
+    <ng-template #noResult>
+      <p>Hiç bir sonuç bulunamadı..</p>
+    </ng-template>
+
+    <input [(ngModel)]="searchKey" class="form-control" placeholder="Ara.." />
+
+    <ul *ngIf="postList.length > 0; else noResult">
+      <li *ngFor="let post of postList | searchPost : searchKey">
+        <!-- <a (click)="navigateToDetail(post.id)">
+        {{ post.title }}
+      </a> -->
+        <a routerLink="/posts/detail" [queryParams]="{ id: post.id }">
+          {{ post.title }}
+        </a>
+      </li>
+    </ul>
+  </div>
+</app-layout>
+<!-- 14:00 -->
