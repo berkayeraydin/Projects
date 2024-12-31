@@ -1,4 +1,4 @@
-package com.etiya.qrcodebenchmark;
+package com.qrcodebenchmark;
 
 import java.io.ByteArrayOutputStream;
 import java.util.Base64;
